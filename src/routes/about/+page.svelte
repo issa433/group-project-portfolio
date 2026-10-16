@@ -46,4 +46,23 @@
     border-radius: 12px;
     max-width: 400px;
 }
+
+.fotogalleri {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.fotogalleri img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.fotogalleri img:hover {
+    transform: scale(1.05);
+}
 </style>
