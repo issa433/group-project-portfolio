@@ -9,7 +9,7 @@
     </div>
 
     <div class="Elias">
-    <img src="/elias-profilbild.jpeg" alt="Portratt av fotografen Elias" />
+        <img src="/elias-profilbild.jpeg" alt="Portratt av fotografen Elias" />
     </div>
 
 </main>
