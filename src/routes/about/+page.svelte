@@ -78,4 +78,7 @@
 .fotogalleri img:nth-child(4n) {
     transform-origin: right center;
 }
+:global(body)
+    {color:black
+    }
 </style>
