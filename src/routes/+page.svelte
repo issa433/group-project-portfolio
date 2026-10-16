@@ -17,7 +17,7 @@
     </div>
 
     <div class="mat">
-        <img src="/mat.jpeg" alt="Mat" />
+        <img src="/Mat.jpeg" alt="Mat" />
     </div>
     <div class="sushi">
         <img src="/sushi.jpeg" alt="Sushi" />
