@@ -7,6 +7,6 @@
     </div>
 </main>
 <footer>
-    <a href="/">Back to main</a>
+    <a href="/">Back to top</a>
     <a href="/contact">Contact me</a>
 </footer>
