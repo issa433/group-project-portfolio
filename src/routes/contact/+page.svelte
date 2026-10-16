@@ -1,3 +1,4 @@
+<a href="/">Back to home</a>
 <main>
 <img src="/eliasContact.jpeg" alt="Portratt av fotografen Elias" />
 
@@ -15,10 +16,6 @@
     </form>
  </div>
 </main>
-
-<footer>
-    <a href="/">Back to home</a>
-</footer>
 
 
 <style>
