@@ -1,20 +1,34 @@
+<script>
+    let sent = $state(false);
+    let name = $state ('');
+    function handleSubmit(event) {
+        event.preventDefault();
+        sent = true;
+    }
+</script>
+
 <main>
 <img src="/eliasContact.jpeg" alt="Portratt av fotografen Elias" />
 
 <div class="page">
-    <h1> Please contact me here</h1>
+    {#if sent}
+        <h1>Thank you, {name}!</h1>
+        <p>I will get back to you as soon as possible.</p>
+    {:else}
+        <h1>Please contact me here</h1>
+        <p>Fill out the form below to send me a message.</p>
+        <form onsubmit={handleSubmit}>
+            <label for="name">Your name:</label>
+            <input type="text" id="name" bind:value={name} required />
 
-    <form>
-     <label for="name">Your name:</label>
-     <input type="text" id="name" name="name" />
-    
-     <lable for="message">Your message:</lable> 
-     <textarea id="message" name="message" rows="6"></textarea>
+            <label for="message">Your message:</label>
+            <textarea id="message" name="message" rows="6"></textarea>
 
-     <button type="submit">Send</button>
-    </form>
+            <button type="submit">Send</button>
+        </form>
+    {/if}
     <a href="/">Back to home</a>
- </div>
+</div>
 </main>
 
 

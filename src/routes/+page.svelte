@@ -62,4 +62,11 @@ main {
 :global(body) {
     margin: 0;
 }
+footer {
+    position: bottom;
+    width: 100%;
+    background-color: rgba(247, 236, 200, 0.8);
+    padding: 8px 16px;
+    text-align: center;
+}
 </style>
