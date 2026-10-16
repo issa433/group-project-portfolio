@@ -15,6 +15,9 @@
     <div class="restaurang">
         <img src="/restaurang.jpeg" alt="Restaurang" />
     </div>
+    <div class="restutant">
+        <img src="/resturant.jpeg" alt="Restaurant" />
+    </div>
 
     <div class="mat"
 >
