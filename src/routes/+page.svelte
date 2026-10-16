@@ -2,7 +2,7 @@
 
 <main>
     <div class="page">
-        <h1>Welcome to our project</h1>
+        <h1>Elias Berg</h1>
         <p>Welcome to my portfolio!</p>
         <a href="/about">About me</a>
         <a href="/contact">Contact me</a>
@@ -32,6 +32,14 @@
 </main>
 
 <style>
+h1 {
+    color: #032344;
+    font-size: 50px;
+}
+p {
+    color: #032344;
+    font-size: 20px;
+}
 img {
     width: 100%;
     height: 100vh;
@@ -44,7 +52,7 @@ main {
 .page {
     position: absolute;
     top: 100px;
-    left: 60px;
+    left: 90px;
     z-index: 0;
     background-color: rgba(255, 255, 255, 0.619);
     padding: 24px 32px;
