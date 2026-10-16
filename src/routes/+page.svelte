@@ -1,3 +1,5 @@
+
+
 <main>
     <div class="page">
         <h1>Welcome to our project</h1>
@@ -10,3 +12,6 @@
     <a href="/">Back to top</a>
     <a href="/contact">Contact me</a>
 </footer>
+
+<style>
+</style>
