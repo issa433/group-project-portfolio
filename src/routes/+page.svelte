@@ -16,7 +16,10 @@
         <img src="/restaurang.jpeg" alt="Restaurang" />
     </div>
 
-
+    <div class="mat"
+>
+        <img src="/mat.jpeg" alt="Mat" />
+    </div>
 </main>
 <footer>
     <a href="/">Back to top</a>
