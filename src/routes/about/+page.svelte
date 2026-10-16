@@ -50,9 +50,9 @@
 .fotogalleri {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
+    gap: 2px;
     margin: 40px 0;
-    padding: 0 16px;
+    padding: 0 2px;
     overflow-x: clip;
 }
 .fotogalleri img {
@@ -64,8 +64,14 @@
     position: relative;
 }
 .fotogalleri img:hover {
-    transform: scale(1.15);
+    transform: scale(2);
     z-index: 2;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0,4);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+.fotogalleri img:nth-child(4n + 1) {
+    transform-origin: left center;
+}
+.fotogalleri img:nth-child(4n) {
+    transform-origin: right center;
 }
 </style>
