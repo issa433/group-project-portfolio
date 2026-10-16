@@ -8,8 +8,8 @@
         <a href="/contact">Contact me</a>
     </div>
 
-    <div class="Elias"
-    <img src="/elias-profilbild.jpg" alt="Portratt av fotografen Elias" />
+    <div class="Elias">
+    <img src="/elias-profilbild.jpeg" alt="Portratt av fotografen Elias" />
     </div>
 
 </main>
