@@ -12,17 +12,17 @@
         <img src="/elias-profilbild.jpeg" alt="Portratt av fotografen Elias" />
     </div>
 
-    <div class="restaurang">
-        <img src="/restaurang.jpeg" alt="Restaurang" />
-    </div>
     <div class="restutant">
         <img src="/resturant.jpeg" alt="Restaurant" />
     </div>
 
-    <div class="mat"
->
+    <div class="mat">
         <img src="/mat.jpeg" alt="Mat" />
     </div>
+    <div class="sushi">
+        <img src="/sushi.jpeg" alt="Sushi" />
+    </div>
+
 </main>
 <footer>
     <a href="/">Back to top</a>
