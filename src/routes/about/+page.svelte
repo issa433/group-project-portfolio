@@ -10,6 +10,21 @@
     </div>
     <div class="fotogalleri">
         <img src="/galleri1.jpeg" alt="Fisk" />
+        <img src="/galleri2.jpeg" alt="Fisk" />
+        <img src="/galleri3.jpeg" alt="Fisk" />
+        <img src="/galleri4.jpeg" alt="Fisk" />
+        <img src="/galleri5.jpeg" alt="Fisk" />
+        <img src="/galleri6.jpeg" alt="Fisk" />
+        <img src="/galleri7.jpeg" alt="Fisk" />
+        <img src="/galleri8.jpeg" alt="Fisk" />
+        <img src="/galleri9.jpeg" alt="Fisk" />
+        <img src="/galleri10.jpeg" alt="Fisk" />
+        <img src="/galleri11.jpeg" alt="Fisk" />
+        <img src="/galleri12.jpeg" alt="Fisk" />
+        <img src="/galleri13.jpeg" alt="Fisk" />
+        <img src="/galleri14.jpeg" alt="Fisk" />
+        <img src="/galleri15.jpeg" alt="Fisk" />
+        <img src="/galleri16.jpeg" alt="Fisk" />
     </div>
 </main>
 
