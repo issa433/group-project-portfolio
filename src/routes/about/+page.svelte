@@ -5,19 +5,23 @@
       <a href="/">Back to home</a>
     </div>
 
-    <div class="slide Elias" id="top">
+    <div class="slideElias" id="top">
         <img src="/elias+mat.jpeg" alt="Portratt av fotografen Elias" />
+    </div>
+    <div class="fotogalleri">
+        <img src="/galleri1.jpeg" alt="Fisk" />
     </div>
 </main>
 
 <style>
-img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    display: block;
-}
-.page {
+
+    .slideElias {
+     width: 100%;
+     height: 100vh;
+     object-fit: cover;
+     display: block;
+    }
+ .page {
     position: absolute;
     top: 100px;
     left: 60px;

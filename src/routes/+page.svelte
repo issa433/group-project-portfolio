@@ -39,25 +39,12 @@ img {
 }
 main {
     position: relative;
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
 }
-.slide {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-}
-footer {
-    scroll-snap-align: end;
-    padding: 24px 40px;  
-} 
-
 .page {
     position: absolute;
     top: 100px;
     left: 60px;
-    z-index: 1;
+    z-index: 0;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 24px 32px;
     border-radius: 12px;
