@@ -79,7 +79,13 @@
 .fotogalleri img:nth-child(4n) {
     transform-origin: right center;
 }
-:global(body)
-    {color:black
+
+main {
+    background-color: black;
+    min-height: 100vh;
+}
+
+:global(body) {
+    margin: 0;
     }
 </style>
