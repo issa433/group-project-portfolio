@@ -51,18 +51,21 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
-    max-width: 1100px;
-    margin: 40px auto;
-    padding: 0 20px;
+    margin: 40px 0;
+    padding: 0 16px;
+    overflow-x: clip;
 }
 .fotogalleri img {
     width: 100%;
     height: 220px;
     object-fit: cover;
     border-radius: 8px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; box-shadow 0.3s ease;
+    position: relative;
 }
 .fotogalleri img:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+    z-index: 2;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0,4);
 }
 </style>
