@@ -28,6 +28,11 @@
     </div>
 </main>
 
+<footer>
+    <a href="#top">Back to top</a>
+    <a href="/contact">Contact me</a>
+</footer>
+
 <style>
 
     .slideElias img {
