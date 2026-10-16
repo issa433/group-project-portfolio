@@ -16,7 +16,8 @@
         <img src="/resturant.jpeg" alt="Restaurant" />
     </div>
 
-    <div class="mat">
+    <div class="mat"
+>
         <img src="/mat.jpeg" alt="Mat" />
     </div>
     <div class="sushi">
