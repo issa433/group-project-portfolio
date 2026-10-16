@@ -35,11 +35,11 @@
 
 <style>
 
-    .slideElias img {
-     width: 100%;
-     height: 100vh;
-     object-fit: cover;
-     display: block;
+.slideElias img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
     }
  .page {
     position: absolute;
@@ -51,7 +51,6 @@
     border-radius: 12px;
     max-width: 400px;
 }
-
 .fotogalleri {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

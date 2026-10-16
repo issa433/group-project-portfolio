@@ -1,4 +1,3 @@
-<a href="/">Back to home</a>
 <main>
 <img src="/eliasContact.jpeg" alt="Portratt av fotografen Elias" />
 
@@ -14,6 +13,7 @@
 
      <button type="submit">Send</button>
     </form>
+    <a href="/">Back to home</a>
  </div>
 </main>
 
