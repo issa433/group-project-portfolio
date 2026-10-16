@@ -21,7 +21,7 @@
 
     <div class="mat"
 >
-        <img src="/mat.jpeg" alt="Mat" />
+        <img src="/Mat.jpeg" alt="Mat" />
     </div>
 </main>
 <footer>
