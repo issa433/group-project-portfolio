@@ -66,7 +66,7 @@ main {
     height: 100vh;
 }
 .page {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.621);
     padding: 24px 32px;
     border-radius: 12px;
     max-width: 400px;
