@@ -41,8 +41,8 @@ main {
 }
 .page {
     position: absolute;
-    top: 40px;
-    left 40px;
+    top: 100px;
+    left: 60px;
     z-index: 0;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 24px 32px;
