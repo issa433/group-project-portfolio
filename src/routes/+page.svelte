@@ -38,4 +38,7 @@ main {
     border-radius: 12px;
     max-width: 400px;
 }
+:global(body) {
+    margin: 0;
+}
 </style>
