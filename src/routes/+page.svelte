@@ -25,4 +25,17 @@ img {
     object-fit: cover;
     display: block;
 }
+main {
+    position: relative;
+}
+.page {
+    position: absolute;
+    top: 40px;
+    left 40px;
+    z-index: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 24px 32px;
+    border-radius: 12px;
+    max-width: 400px;
+}
 </style>
