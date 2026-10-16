@@ -12,6 +12,11 @@
         <img src="/elias-profilbild.jpeg" alt="Portratt av fotografen Elias" />
     </div>
 
+    <div class="restaurang">
+        <img src="/restaurang.jpeg" alt="Restaurang" />
+    </div>
+
+
 </main>
 <footer>
     <a href="/">Back to top</a>
