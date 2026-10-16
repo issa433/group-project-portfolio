@@ -8,26 +8,27 @@
         <a href="/contact">Contact me</a>
     </div>
 
-    <div class="Elias">
+    <div class="slide Elias" id="top">
         <img src="/elias-profilbild.jpeg" alt="Portratt av fotografen Elias" />
     </div>
 
-    <div class="restutant">
+    <div class="slide restaurang" id="top">
+        <img src="/restaurang.jpeg" alt="Restaurang" />
+    </div>
+    <div class="slide restutant" id="top">
         <img src="/resturant.jpeg" alt="Restaurant" />
     </div>
 
-    <div class="mat">
+    <div class="slide mat" id="top">
         <img src="/Mat.jpeg" alt="Mat" />
     </div>
-    <div class="sushi">
-        <img src="/sushi.jpeg" alt="Sushi" />
-    </div>
 
-</main>
 <footer>
-    <a href="/">Back to top</a>
+    <a href="#top">Back to top</a>
     <a href="/contact">Contact me</a>
 </footer>
+
+</main>
 
 <style>
 img {
