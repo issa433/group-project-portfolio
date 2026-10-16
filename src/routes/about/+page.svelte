@@ -69,7 +69,7 @@
     position: relative;
 }
 .fotogalleri img:hover {
-    transform: scale(1,8);
+    transform: scale(2);
     z-index: 2;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
