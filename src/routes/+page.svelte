@@ -34,11 +34,11 @@
 <style>
 h1 {
     color: #032344;
-    font-size: 50px;
+    font-size: 70px;
 }
 p {
     color: #032344;
-    font-size: 20px;
+    font-size: 30px;
 }
 img {
     width: 100%;
