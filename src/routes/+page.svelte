@@ -25,6 +25,7 @@
 
 <footer>
     <a href="#top">Back to top</a>
+    <a href="/about">About me</a>
     <a href="/contact">Contact me</a>
 </footer>
 

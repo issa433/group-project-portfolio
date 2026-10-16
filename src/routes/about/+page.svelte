@@ -1,7 +1,7 @@
 <main>
     <div class="page">
      <h1>About me</h1>
-       <p>Hello! my name is Elias.</p>
+       <p>I’m Elias Berg, a photographer specialising in food and interior photography for restaurants, cafés and bakeries. My approach is calm and natural, capturing the details, textures and atmosphere that make each place unique. From a bakery’s opening to a seasonal menu or a neighbourhood café, I create honest, inviting images that tell the story behind the space and the food.</p>
       <a href="/">Back to home</a>
     </div>
 
@@ -27,6 +27,11 @@
         <img src="/galleri16.jpeg" alt="Fisk" />
     </div>
 </main>
+
+<footer>
+    <a href="#top">Back to top</a>
+    <a href="/contact">Contact me</a>
+</footer>
 
 <style>
 
