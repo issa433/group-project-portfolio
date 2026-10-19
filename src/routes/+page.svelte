@@ -1,5 +1,3 @@
-
-
 <main>
     <div class="page">
         <h1>Elias Berg</h1>
@@ -15,7 +13,8 @@
     <div class="slide restaurang">
         <img src="/restaurang.jpeg" alt="Restaurang" />
     </div>
-    <div class="slide restutant">
+
+    <div class="slide restaurant">
         <img src="/resturant.jpeg" alt="Restaurant" />
     </div>
 
@@ -31,14 +30,12 @@
 </footer>
 
 <style>
-
 :global(html) {
     scroll-snap-type: y mandatory;
 }
 .slide {
-    scroll-snap-alighn: start;
+    scroll-snap-align: start;
 }
-
 h1 {
     color: #032344;
     font-size: 70px;
@@ -60,7 +57,7 @@ main {
     position: absolute;
     top: 100px;
     left: 90px;
-    z-index: 0;
+    z-index: 1;
     background-color: rgba(255, 255, 255, 0.619);
     padding: 24px 32px;
     border-radius: 12px;
@@ -70,8 +67,7 @@ main {
     margin: 0;
 }
 footer {
-    scroll-snap-alighn: end;
-    width: 100%;
+    scroll-snap-align: end;
     background-color: rgba(247, 236, 200, 0.8);
     padding: 8px 16px;
     text-align: center;
