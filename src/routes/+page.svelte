@@ -12,14 +12,14 @@
         <img src="/elias-profilbild.jpeg" alt="Portratt av fotografen Elias" />
     </div>
 
-    <div class="slide restaurang" id="top">
+    <div class="slide restaurang">
         <img src="/restaurang.jpeg" alt="Restaurang" />
     </div>
-    <div class="slide restutant" id="top">
+    <div class="slide restutant">
         <img src="/resturant.jpeg" alt="Restaurant" />
     </div>
 
-    <div class="slide mat" id="top">
+    <div class="slide mat">
         <img src="/Mat.jpeg" alt="Mat" />
     </div>
 
@@ -32,6 +32,14 @@
 </main>
 
 <style>
+
+:global(html) {
+    scroll-snap-type: y mandatory;
+}
+.slide {
+    scroll-snap-alighn: start;
+}
+
 h1 {
     color: #032344;
     font-size: 70px;
@@ -63,7 +71,7 @@ main {
     margin: 0;
 }
 footer {
-    position: bottom;
+    scroll-snap-alighn: end;
     width: 100%;
     background-color: rgba(247, 236, 200, 0.8);
     padding: 8px 16px;
