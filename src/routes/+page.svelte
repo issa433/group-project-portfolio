@@ -22,14 +22,13 @@
     <div class="slide mat" id="top">
         <img src="/Mat.jpeg" alt="Mat" />
     </div>
+</main>
 
 <footer>
     <a href="#top">Back to top</a>
     <a href="/about">About me</a>
     <a href="/contact">Contact me</a>
 </footer>
-
-</main>
 
 <style>
 h1 {
