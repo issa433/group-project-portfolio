@@ -38,12 +38,14 @@
     scroll-snap-align: start;
 }
 h1 {
-    color: #032344;
+    color: #f6f8f9;
     font-size: 70px;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.5);
 }
 p {
-    color: #032344;
+    color: #fbfdff;
     font-size: 30px;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.5);
 }
 img {
     width: 100%;
@@ -59,10 +61,15 @@ main {
     top: 100px;
     left: 90px;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.619);
-    padding: 24px 32px;
-    border-radius: 12px;
     max-width: 400px;
+}
+.page a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 14px;
+    margin-right: 24px;
 }
 :global(body) {
     margin: 0;
