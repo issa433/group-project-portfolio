@@ -34,10 +34,19 @@
 
 <style>
 h1 {
-    color: #19232d;
+    color: white;
+    font-size: 50px;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.5);
 }
-p {
-    color: #19232d;
+p, label {
+    color: white;
+}
+.page a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 14px;
 }
 img {
     position: fixed;
@@ -46,6 +55,7 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter:brightness(0.55);
     z-index: -1;
 }
  form {
@@ -56,33 +66,35 @@ img {
     max-width: 400px;
     margin-bottom: 24px;
     }
-textarea {
+input, textarea {
     padding: 8px;
     font-size: 16px;
-    border: 1px solid #9c9ea2;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background: transparent;
+    color: white;
     border-radius: 6px;
     font-family: inherit;
     }
 button {
     padding: 8px 16px;
     font-size: 16px;
-    background-color: #19232d;
-    color: rgb(224, 224, 224);
+    background-color: white;
+    color: black;
     border: none;
     border-radius: 6px;
     cursor: pointer;
+     text-transform: uppercase;
+    letter-spacing: 0.15em;
     }
 main {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 90px;
     align-items: center;
     height: 100vh;
 }
 .page {
-    background-color: rgba(255, 255, 255, 0.621);
-    padding: 24px 32px;
-    border-radius: 12px;
     max-width: 400px;
     width: 100%;
 }
