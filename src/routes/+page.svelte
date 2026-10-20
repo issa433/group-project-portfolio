@@ -32,6 +32,7 @@
 <style>
 :global(html) {
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 }
 .slide {
     scroll-snap-align: start;
