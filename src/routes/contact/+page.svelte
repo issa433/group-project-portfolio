@@ -40,6 +40,7 @@ h1 {
 }
 p, label {
     color: white;
+    font-size: 17px;
 }
 .page a {
     color: white;
