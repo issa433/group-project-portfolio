@@ -35,11 +35,17 @@
 
 <style>
 footer {
-    position: bottom;
-    width: 100%;
-    background-color: rgba(247, 236, 200, 0.8);
-    padding: 8px 16px;
+    background-color: black;
+    padding: 24px 16px;
     text-align: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 12px;
+    margin: 0 16px;
 }
 .slideElias img {
     width: 100%;
@@ -47,15 +53,39 @@ footer {
     object-fit: cover;
     display: block;
     }
+    .slideElias {
+    position: relative;
+}
+.slideElias::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, transparent 35%, rgba(0, 0, 0, 0.75));
+}
  .page {
     position: absolute;
     top: 100px;
     right: 60px;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.628);
-    padding: 24px 32px;
-    border-radius: 12px;
     max-width: 400px;
+}
+.page h1 {
+    color: white;
+    font-size: 70px;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.5);
+}
+.page p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.6);
+}
+.page a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 14px;
 }
 .fotogalleri {
     display: grid;
