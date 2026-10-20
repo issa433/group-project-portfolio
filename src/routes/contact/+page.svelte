@@ -69,11 +69,12 @@ img {
 input, textarea {
     padding: 8px;
     font-size: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    background: transparent;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0.45);
     color: white;
     border-radius: 6px;
     font-family: inherit;
+    resize: none;
     }
 button {
     padding: 8px 16px;
@@ -83,7 +84,7 @@ button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
-     text-transform: uppercase;
+    text-transform: uppercase;
     letter-spacing: 0.15em;
     }
 main {

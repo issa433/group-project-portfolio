@@ -35,7 +35,6 @@
 
 <style>
 footer {
-    width: 100%;
     background-color: black;
     padding: 24px 16px;
     text-align: center;
