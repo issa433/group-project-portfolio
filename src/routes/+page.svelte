@@ -70,14 +70,23 @@ main {
     letter-spacing: 0.15em;
     font-size: 14px;
     margin-right: 24px;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.5);
 }
 :global(body) {
     margin: 0;
 }
 footer {
     scroll-snap-align: end;
-    background-color: rgba(247, 236, 200, 0.8);
-    padding: 8px 16px;
+    background-color: black;
+    padding: 24px 16px;
     text-align: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 12px;
+    margin: 0 16px;
 }
 </style>
