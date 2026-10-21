@@ -1,32 +1,36 @@
+<script>
+    import { asset, resolve } from '$app/paths';
+</script>
+
 <main>
     <div class="page">
         <h1>Elias Berg</h1>
         <p>Welcome to my portfolio!</p>
-        <a href="/about">About me</a>
-        <a href="/contact">Contact me</a>
+        <a href={resolve('/about')}>About me</a>
+        <a href={resolve('/contact')}>Contact me</a>
     </div>
 
     <div class="slide Elias" id="top">
-        <img src="/elias-profilbild.jpeg" alt="Portratt av fotografen Elias" />
+        <img src={asset('/elias-profilbild.jpeg')} alt="Portratt av fotografen Elias" />
     </div>
 
     <div class="slide restaurang">
-        <img src="/restaurang.jpeg" alt="Restaurang" />
+        <img src={asset('/restaurang.jpeg')} alt="Restaurang" />
     </div>
 
     <div class="slide restaurant">
-        <img src="/resturant.jpeg" alt="Restaurant" />
+        <img src={asset('/resturant.jpeg')} alt="Restaurant" />
     </div>
 
     <div class="slide mat">
-        <img src="/Mat.jpeg" alt="Mat" />
+        <img src={asset('/Mat.jpeg')} alt="Mat" />
     </div>
 </main>
 
 <footer>
     <a href="#top">Back to top</a>
-    <a href="/about">About me</a>
-    <a href="/contact">Contact me</a>
+    <a href={resolve('/about')}>About me</a>
+    <a href={resolve('/contact')}>Contact me</a>
 </footer>
 
 <style>

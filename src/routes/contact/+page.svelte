@@ -1,4 +1,6 @@
 <script>
+    import { asset, resolve } from '$app/paths';
+
     let sent = $state(false);
     let name = $state ('');
     function handleSubmit(event) {
@@ -8,7 +10,7 @@
 </script>
 
 <main>
-<img src="/eliasContact.jpeg" alt="Portratt av fotografen Elias" />
+<img src={asset('/eliasContact.jpeg')} alt="Portratt av fotografen Elias" />
 
 <div class="page">
     {#if sent}
@@ -27,7 +29,7 @@
             <button type="submit">Send</button>
         </form>
     {/if}
-    <a href="/">Back to home</a>
+    <a href={resolve('/')}>Back to home</a>
 </div>
 </main>
 
